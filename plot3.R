@@ -18,7 +18,7 @@ powerData <- subset(powerData, subset=(Date >= "2007-02-01" & Date <= "2007-02-0
 newDates <- paste(as.Date(powerData$Date), powerData$Time)
 powerData$Datetime <- as.POSIXct(newDates)
 
-## Plot 2
+## Plot 3
 with(powerData,
      {plot(Sub_metering_1~Datetime,
            type="l",
