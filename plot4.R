@@ -30,7 +30,7 @@ with(powerData,
        plot(Voltage~Datetime,
             type="l",
             ylab="Voltage (volt)",
-            xlab="")       
+            xlab="datetime")       
        plot(Sub_metering_1~Datetime,
             type="l",
             ylab="Energy sub metering",
@@ -46,7 +46,7 @@ with(powerData,
        plot(Global_reactive_power~Datetime,
             type="l",
             ylab="Global Reactive Power (kilowatts)",
-            xlab="")
+            xlab="datetime")
        })
 
 ## Saving to PNG file
